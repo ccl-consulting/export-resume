@@ -1,6 +1,6 @@
 {
   "name": "@ccl-consulting/export-resume",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Export JSON Resume to human readable formats",
   "main": "lib/index.js",
   "scripts": {
