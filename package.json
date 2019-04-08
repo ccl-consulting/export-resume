@@ -1,0 +1,27 @@
+{
+  "name": "@ccl-consulting/export-resume",
+  "version": "0.0.1",
+  "description": "Export JSON Resume to human readable formats",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ccl-consulting/export-resume.git"
+  },
+  "license": "MIT",
+  "bin": {
+    "export-resume": "index.js"
+  },
+  "dependencies": {
+    "jsonresume-theme-flat": "^0.3.7",
+    "puppeteer": "^1.14.0",
+    "resume-schema": "latest",
+    "yargs": "^13.2.2",
+    "chrome-aws-lambda": "latest"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.1"
+  }
+}
