@@ -1,2 +1,11 @@
+*.html
+*.md
+*.pdf
+*.txt
+
+node_modules
+resume.json
+!README.md
+
 example.js
 tests
