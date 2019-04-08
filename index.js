@@ -1,12 +1,18 @@
 #!/usr/bin/env node
+
 const path = require('path');
-const { exportResume } = require(__dirname + '/lib');
+const {
+  exportResume,
+  SUPPORTED_OUTPUT_FORMATS,
+} = require(__dirname + '/lib');
+
+const DEFAULT_THEME = 'stackoverflow';
 
 // TODO: Auto infer format from filename
 // function inferFormatMiddleware(argv) {
 //   if (!argv.format && argv.output) {
 //     const ext = argv.output.split('.').pop().toLowerCase();
-//     if (ext !== argv.output) {
+//     if (ext !== argv.output && SUPPORTED_OUTPUT_FORMATS.includes(ext)) {
 //       argv.format = ext;
 //     } else {
 //       argv.format = 'pdf';
@@ -35,13 +41,13 @@ const argv = require('yargs') // eslint-disable-line
         })
         .option('format', {
           alias: 'f',
-          choices: ['pdf', 'md', 'txt', 'html'],
+          choices: SUPPORTED_OUTPUT_FORMATS,
           default: 'pdf',
           describe: 'output file format'
         })
         .option('theme', {
           alias: 't',
-          default: 'flat',
+          default: DEFAULT_THEME,
           describe: 'JSON Resume theme name'
         })
     }, (argv) => {

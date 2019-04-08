@@ -15,11 +15,10 @@
     "export-resume": "index.js"
   },
   "dependencies": {
-    "jsonresume-theme-flat": "^0.3.7",
-    "puppeteer": "^1.14.0",
-    "resume-schema": "latest",
+    "resume-schema": "^0.0.16",
+    "jsonresume-theme-stackoverflow": "^1.4.0",
     "yargs": "^13.2.2",
-    "chrome-aws-lambda": "latest"
+    "puppeteer": "^1.14.0"
   },
   "devDependencies": {
     "mocha": "^6.1.1"
