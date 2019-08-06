@@ -15,7 +15,7 @@
     "export-resume": "index.js"
   },
   "dependencies": {
-    "resume-schema": "^0.0.17",
+    "resume-schema": "^0.0.18",
     "jsonresume-theme-stackoverflow": "^1.4.0",
     "yargs": "^13.2.2",
     "puppeteer": "^1.14.0"
