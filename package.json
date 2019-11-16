@@ -17,7 +17,7 @@
   "dependencies": {
     "resume-schema": "^0.0.18",
     "jsonresume-theme-stackoverflow": "^1.4.0",
-    "yargs": "^14.0.0",
+    "yargs": "^15.0.0",
     "puppeteer": "^1.14.0"
   },
   "devDependencies": {
