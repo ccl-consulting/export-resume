@@ -18,7 +18,7 @@
     "resume-schema": "^0.0.18",
     "jsonresume-theme-stackoverflow": "^1.4.0",
     "yargs": "^14.0.0",
-    "puppeteer": "^1.14.0"
+    "puppeteer": "^7.0.0"
   },
   "devDependencies": {
     "mocha": "7.1.0"
